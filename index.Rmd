@@ -1,0 +1,472 @@
+---
+title: "Game Developers Leveling Up"
+subtitle: "New Insights into Self-Directed Learning"
+author: "Bret Staudt Willet, Zhongyu Wang, & Jiabei Xu | Florida State University"
+date: "October 23, 2025"
+output:
+  xaringan::moon_reader:
+    lib_dir: libs
+    seal: true
+    css: [default, 'custom.css', 'custom-fonts.css']
+    nature:
+      titleSlideClass: [left, bottom]
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+---
+
+```{r setup, include=FALSE}
+usethis::use_git_ignore(c("*.csv", "*.rds"))
+options(htmltools.dir.version = FALSE)
+
+library(knitr)
+library(tidyverse)
+library(xaringan)
+library(fontawesome)
+```
+
+class: inverse, center, middle
+
+# `r fa("fas fa-images", fill = "#fff")`
+
+**View the slides:** 
+
+[bretsw.com/aect25-sdl](https://bretsw.com/aect25-sdl/)
+
+
+
+---
+
+class: inverse, center, middle
+
+# `r fa("far fa-compass", fill = "#fff")` <br><br> Introduction
+
+---
+
+# `r fa("far fa-compass", fill = "#fff")` A Volatile Industry
+
+```{r, out.width = "600px", echo = FALSE, fig.align = "center"}
+include_graphics("img/game-controller.png")
+```
+
+--
+
+Changes in the video game industry:
+
+--
+
+- Repeating rounds of layoffs
+
+--
+
+- Shifting market interest to genres like dating simulators and role-playing games (RPGs)
+
+--
+
+- Emerging technologies (AR, VR, AI)
+
+---
+
+# `r fa("far fa-compass", fill = "#fff")` Workplace Learning
+
+```{r, out.width = "680px", echo = FALSE, fig.align = "center"}
+include_graphics("img/bored-dev.png")
+```
+
+--
+
+Corporate training and mandated professional development can't keep up
+
+--
+
+and struggles to engage learners
+
+--
+
+`r fa("fas fa-arrow-right", fill = "#782F40")` 80% of workplace learning is informal (Yeo, 2008)
+
+
+
+
+
+---
+
+class: inverse, center, middle
+
+# `r fa("far fa-square", fill = "#fff")` <br><br> Framework
+
+---
+
+# `r fa("far fa-square", fill = "#fff")` Self-Directed Learning
+
+```{r, out.width = "680px", echo = FALSE, fig.align = "center"}
+include_graphics("img/learning.png")
+```
+
+--
+
+**Intentionality**
+
+--
+
+**\+**
+
+--
+
+**Autonomy**
+
+---
+
+# `r fa("far fa-square", fill = "#fff")` Self-Directed Learning
+
+```{r, out.width = "680px", echo = FALSE, fig.align = "center"}
+include_graphics("img/learning.png")
+```
+
+Intentionality `r fa("fas fa-arrow-right", fill = "#782F40")` **Designer**
+
+**\+**
+
+Autonomy `r fa("fas fa-arrow-right", fill = "#782F40")` **Agent**
+
+---
+
+# `r fa("far fa-square", fill = "#fff")` Context-Aware Self-Teaching
+
+```{r, out.width = "600px", echo = FALSE, fig.align = "center"}
+include_graphics("img/context-aware.png")
+```
+
+### As Designer & Agent: **SPA**
+
+--
+
+1. **Start:** `r fa("fas fa-map-pin", fill = "#782F40")` Goal + `r fa("fas fa-house-user", fill = "#782F40")` Context
+
+--
+
+2. **Practice:** `r fa("fas fa-person-walking", fill = "#782F40")` Exploration + `r fa("fas fa-people-arrows", fill = "#782F40")` Supports
+
+--
+
+3. **Assess:** `r fa("fas fa-gauge-high", fill = "#782F40")` Maintenance of Difficulty Level + `r fa("fas fa-ruler-combined", fill = "#782F40")` Evaluation
+
+
+
+
+
+---
+
+class: inverse, center, middle
+
+# `r fa("fas fa-map-pin", fill = "#fff")` <br><br> Purpose 
+
+---
+
+# `r fa("fas fa-map-pin", fill = "#fff")` Purpose
+
+```{r, out.width = "680px", echo = FALSE, fig.align = "center"}
+include_graphics("img/game-dev.png")
+```
+
+--
+
+**To explore how game developers engage in SDL to acquire and enhance their professional skills:**
+
+--
+
+- RQ1. **What reasons** prompt game developers to engage in SDL? 
+
+--
+
+- RQ2. How do game developers **navigate challenges** they face during SDL?
+
+
+
+
+
+---
+
+class: inverse, center, middle
+
+# `r fa("fas fa-list", fill = "#fff")` <br><br> Method 
+
+---
+
+# `r fa("fas fa-list", fill = "#fff")` Method: Design
+
+```{r, out.width = "720px", echo = FALSE, fig.align = "center"}
+include_graphics("img/interview.jpg")
+```
+
+### Exploratory Qualitative Study | One-on-one interviews
+
+---
+
+# `r fa("fas fa-list", fill = "#fff")` Method: Participants (*n* = 12)
+
+| Name          | Sector   | Role                       | Experience           | Training |
+|---------------|----------|----------------------------|----------------------|----------|
+| Adele         | Industry | Producer, Director         | 1–3 years            | Yes      |
+| Creative Cat  | Academia | Game Developer             | 4-6 years            | Yes      |
+| Daniel        | Industry | Level Designer             | > 10 years           | Yes      |
+| Dorothy       | Industry | Automation, UX             | 4-6 years            | Yes      |
+| Elena         | Industry | Localization Producer      | 7-10 years           | No       |
+| Helen         | Industry | Gameplay Engineer          | > 10 years           | Yes      |
+| Lily          | Academia | Game Developer             | < 1 year             | No       |
+| Mana          | Industry | Writer, Director           | 1–3 years            | No       |
+| Mango Badger  | Industry | Narrative Designer         | 1–3 years            | No       |
+| Ryan          | Academia | Game Developer             | 7-10 years           | No       |
+| Scorpion      | Industry | Composer                   | > 10 years           | Yes      |
+| Sean          | Industry | Game Executive             | > 10 years           | No       |
+
+
+
+
+
+---
+
+class: inverse, center, middle
+
+# `r fa("fas fa-cubes-stacked", fill = "#fff")` <br><br> Results
+
+---
+
+# `r fa("fas fa-cubes-stacked", fill = "#fff")` Results: Themes
+
+| Research Question                                           | Theme               | Subthemes                      |
+|-------------------------------------------------------------|---------------------|----------------------------------|
+| RQ1. What reasons prompt game developers to engage in SDL?  | External Motivations| Social Factors, <br>Process Factors, <br>Financial Factors |
+|                                                             | Internal Motivations| Curiosity, <br>Openness, <br>Excellence  |
+| RQ2. How do game developers navigate challenges they face during SDL? | Processes          | Trial-and-Error, <br>Self-Evaluation |
+|                                                             | Supports            | Social Supports, <br>Workplace Supports, <br>Tools |
+
+
+
+
+
+---
+
+# `r fa("fas fa-mountain", fill = "#fff")` Results: RQ1 (Start)
+
+```{r, out.width = "680px", echo = FALSE, fig.align = "center"}
+include_graphics("img/hikers-peak.png")
+```
+
+**RQ1. What reasons prompt game developers to engage in SDL?**
+
+---
+
+# `r fa("fas fa-mountain", fill = "#fff")` Results: RQ1 (Start)
+
+```{r, out.width = "680px", echo = FALSE, fig.align = "center"}
+include_graphics("img/hikers-peak.png")
+```
+
+### External Motivations: Social Factors
+
+`r fa("fas fa-quote-left", fill = "#782F40")` "I want to do right by people, to do my part, so that they can do their part, and we can all look at this thing at the end and be like, wow, I was part of that."
+
+**~Mana**
+
+
+
+---
+
+# `r fa("fas fa-mountain", fill = "#fff")` Results: RQ1 (Start)
+
+```{r, out.width = "680px", echo = FALSE, fig.align = "center"}
+include_graphics("img/hikers-peak.png")
+```
+
+### External Motivations: Process Factors
+
+`r fa("fas fa-quote-left", fill = "#782F40")` "How can I get to my end goal with as least friction as possible without bothering people in the interim?"
+
+**~Dorothy**
+
+
+
+---
+
+# `r fa("fas fa-mountain", fill = "#fff")` Results: RQ1 (Start)
+
+```{r, out.width = "680px", echo = FALSE, fig.align = "center"}
+include_graphics("img/hikers-peak.png")
+```
+
+### External Motivations: Financial Factors
+
+**Scorpion:** A stable job during a recession provided the foundation to explore their interests in a sustainable way
+
+
+
+---
+
+# `r fa("fas fa-mountain", fill = "#fff")` Results: RQ1 (Start)
+
+```{r, out.width = "680px", echo = FALSE, fig.align = "center"}
+include_graphics("img/hikers-peak.png")
+```
+
+### Internal Motivations: Curiosity
+
+`r fa("fas fa-quote-left", fill = "#782F40")` "The key to art is curiosity."
+
+**~Scorpion**
+
+
+
+---
+
+# `r fa("fas fa-mountain", fill = "#fff")` Results: RQ1 (Start)
+
+```{r, out.width = "680px", echo = FALSE, fig.align = "center"}
+include_graphics("img/hikers-peak.png")
+```
+
+### Internal Motivations: Openness
+
+`r fa("fas fa-quote-left", fill = "#782F40")` "I felt like I could learn a lot from working with 3D people, working with 2D people, working with a writer, working with composers, working with sound effects, voice actors."
+
+**~Adele**
+
+
+
+---
+
+# `r fa("fas fa-mountain", fill = "#fff")` Results: RQ1 (Start)
+
+```{r, out.width = "680px", echo = FALSE, fig.align = "center"}
+include_graphics("img/hikers-peak.png")
+```
+
+### Internal Motivations: Excellence
+
+`r fa("fas fa-quote-left", fill = "#782F40")` "The internal motivation is that I want to do well at whatever I’m doing."
+
+**~Mana**
+
+
+
+
+
+---
+
+# `r fa("fas fa-forward", fill = "#fff")` Results: RQ2 (Practice)
+
+```{r, out.width = "680px", echo = FALSE, fig.align = "center"}
+include_graphics("img/hikers-steep.png")
+```
+
+**RQ2. How do game developers navigate challenges they face during SDL?**
+
+---
+
+# `r fa("fas fa-forward", fill = "#fff")` Results: RQ2 (Practice)
+
+```{r, out.width = "680px", echo = FALSE, fig.align = "center"}
+include_graphics("img/hikers-steep.png")
+```
+
+### Processes: Trial-and-Error
+
+`r fa("fas fa-quote-left", fill = "#782F40")` "It's even before necessarily knowing what you need to do, just sort of immersing yourselves into those spaces so that you're casually absorbing information even if you don't need it yet."
+
+**~Mana**
+
+---
+
+# `r fa("fas fa-forward", fill = "#fff")` Results: RQ2 (Practice)
+
+```{r, out.width = "680px", echo = FALSE, fig.align = "center"}
+include_graphics("img/hikers-steep.png")
+```
+
+### Processes: Trial-and-Error
+
+`r fa("fas fa-quote-left", fill = "#782F40")` "Past hurdles I’ve overcome mediate how outside the box I can think."
+
+**~Ryan**
+
+
+
+---
+
+# `r fa("fas fa-forward", fill = "#fff")` Results: RQ2 (Practice)
+
+```{r, out.width = "680px", echo = FALSE, fig.align = "center"}
+include_graphics("img/hikers-steep.png")
+```
+
+### Supports: Workplace Supports
+
+**Adele and Mana:** The makeup and culture of their indie team was a workplace support in itself
+
+
+
+
+
+---
+
+# `r fa("fas fa-forward", fill = "#fff")` Results: RQ2 (Assess)
+
+```{r, out.width = "680px", echo = FALSE, fig.align = "center"}
+include_graphics("img/hikers-steep.png")
+```
+
+### Self-Evaluation
+
+`r fa("fas fa-quote-left", fill = "#782F40")` "Through these last years, I have a lot of projects that are kind of midway through. So now my objective is to finish up that work using these new tools."
+
+**~Daniel**
+
+
+
+
+
+---
+
+class: inverse, center, middle
+
+# `r fa("fas fa-map-pin", fill = "#fff")` <br><br> Implications
+
+---
+
+# `r fa("fas fa-map-pin", fill = "#fff")` Implications
+
+```{r, out.width = "720px", echo = FALSE, fig.align = "center"}
+include_graphics("img/game-controller.png")
+```
+
+--
+
+1. SDL can help enhance game developers’ professional growth and resilience
+
+--
+
+2. SDL can help maintain a versatile and up-to-date skill set
+
+--
+
+3. SDL can help foster a culture of innovation and collaboration
+
+
+
+
+
+---
+
+class: inverse, center, middle
+
+# `r fa("fas fa-question", fill = "#fff")` <br><br> Questions
+
+**What would you like to know more about?**
+
+<hr>
+
+<br><br><br><br>
+
+**Bret Staudt Willet | Zhongyu Wang | Jiabei Xu** <br><br> Florida State University
+
+`r fa("envelope", fill = "#fff")` [bret.staudtwillet@fsu.edu](mailto:bret.staudtwillet@fsu.edu) | `r fa("globe", fill = "#fff")` [bretsw.com](https://bretsw.com/) | `r fa("fab fa-github", fill = "#fff")` [GitHub](https://github.com/bretsw/)
