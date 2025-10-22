@@ -451,6 +451,25 @@ include_graphics("img/game-controller.png")
 
 3. SDL can help foster a culture of innovation and collaboration
 
+---
+
+# `r fa("fas fa-map-pin", fill = "#fff")` Implications
+
+```{r, out.width = "600px", echo = FALSE, fig.align = "center"}
+include_graphics("img/context-aware.png")
+```
+
+### Context-Aware Self-Teaching
+
+
+1. **Start:** `r fa("fas fa-map-pin", fill = "#782F40")` Goal + `r fa("fas fa-house-user", fill = "#782F40")` Context
+
+
+2. **Practice:** `r fa("fas fa-person-walking", fill = "#782F40")` Exploration + `r fa("fas fa-people-arrows", fill = "#782F40")` Supports
+
+
+3. **Assess:** `r fa("fas fa-gauge-high", fill = "#782F40")` Maintenance of Difficulty Level + `r fa("fas fa-ruler-combined", fill = "#782F40")` Evaluation
+
 
 
 
